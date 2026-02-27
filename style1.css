@@ -1,0 +1,33 @@
+body{
+    background-image: url('images/leftbackground.jpg');
+    background-size: cover;
+}
+
+table{
+    border:3px solid black;
+    border-radius: 30px;
+    padding: 20px 20px ;
+    background-color: wheat;
+}
+th,td{
+    border: none;
+}
+
+input{
+    font-size: 200%;
+    padding: 10px 0px 0px 10px;
+    text-align: left;
+    /* border: none; */
+    outline: none;
+    margin: 10px 0px 0px 10px;
+    border: 2px solid black;
+    border-radius: 10px ;
+    background-color:whitesmoke ;
+}
+
+textarea{
+    border: 2px solid black;
+    border-radius: 10px ;
+    margin: 10px 0px 0px 10px;
+    font-size: 200%;
+}

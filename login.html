@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+    </head>
+    <style>
+        .box
+        {
+            background-color: wheat;
+            width:30%;
+            padding: 50px 10px 20px 10px;
+            border: 2px solid black;
+            border-radius: 20px;
+        }
+        div label{
+            font-size: 200%;
+            padding-left: 0;
+            margin-right: 210px;
+        }
+        div input
+        {
+            font-size: 200%;
+            padding: 10px 0px 0px 0px;
+            text-align: left;
+            border: none;
+            outline: none;
+            border-bottom: 2px solid black;
+            background-color:transparent ;
+        }
+        div a
+        {
+            font-size: 200%;
+            text-decoration: none;
+            display: inline-block;
+            align-items: left;
+        }
+    </style>
+    <body style="background-image: url('images/leftbackground.jpg'); background-size: cover;">
+        <center>
+            <h1 style="font-size: 300%;"><i>Login page</i></h1><br><br><br>
+            <form action="welcome.html" target="_self">
+                <div class="box">
+                <div><label for="uname" >USER NAME</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Username"><br><br>
+                <label for="password">PASSWORD</label><br>
+                <input type="password" id="password" name="password" placeholder="*******" required><br><br>
+                <input type="submit" value="Submit" style="background-color:cyan; padding:10px 20px; font-size: 150%; border-radius: 10px; margin-right: 280px;"><br><br></div>
+                <a href="Registrationpage.html" style="text-align: left; color: blue; ">Sign Up   &nbsp; &nbsp; &nbsp; </a>
+                <a href="forgot.html" style="text-align: right; margin-left: 30px;color:blue; ">Forgot password?</a>
+                </div>
+            </form>
+        </center>
+        <script src="validations.js"></script>
+    </body>
+</html>

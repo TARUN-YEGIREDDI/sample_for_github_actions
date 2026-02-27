@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Page</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    .header{
+        background-color: black;
+        height:250px; 
+        width:100%;
+        border: 3px solid rgb(222, 245, 179);  
+        padding: 0 0 0 400px;  
+        display:flex;
+        align-items:center;
+    }
+    .left{
+        /* background-color: rgb(42, 248, 176); */
+        background-image: url('images/leftbackground.jpg');
+        background-size:cover;
+        height:700px; 
+        width:20%; 
+        float:left;
+        border: 5px solid rgb(222, 245, 179);
+        text-align:center;
+        padding-top: 200px;
+    }
+    .right{
+        background-color: lightgreen; 
+        height:700px; 
+        width:80%;
+        float:left;
+        border: 5px solid rgb(222, 245, 179);
+    }
+    h2{
+        color:wheat;
+        font-family:Verdana;
+        font-size:200%;
+    }
+    .header img{
+        /* display: inline-block; */
+        padding-right: 50px;
+        float:left;
+    }
+    .header h2{
+        font-size: 200%;
+        text-align: center;
+        color:red;
+    }
+    
+</style>
+<body>
+    <div class="header">
+        <img src="images\logo.png" >
+        <h2><i>-- Make Your Day Memorable With Us...</i></h2>
+    </div>
+    <div class="left">
+        <ul style="list-style-type:circle;">
+           <li><a href="login.html" target="right-frame" style="text-decoration: none;"><center><h2><i>LogIn</i></h2></center></a></li><br>
+           <li><a href="Registrationpage.html" target="right-frame" style="text-decoration: none;"><center><h2><i>Registration</i></h2></a></li><br>
+            <li><center><h2><i >About</i></h2></center></li><br>
+            <li><center><h2><i >Contact Us</i></h2></center></li><br>
+        </ul>
+    </div>
+    <!-- <div class="right"></div> -->
+    <iframe src="login.html" frameborder="0" name="right-frame" class="right"></iframe>
+
+</body>
+</html>
